@@ -9,8 +9,9 @@ from nltk.parse.stanford import StanfordDependencyParser
 from utils import word_segment, preprocessed
 
 
+
 def get_lda_mdoel(split_data, num_topics, num_words):
-    """ LDA模型训练，词表构建，主题单词矩阵获取
+    """ LDA模型训练词表构建主题单词矩阵获取
     """
 
     # 构建词表
